@@ -43,6 +43,9 @@ Plugin 'github/copilot.vim'
 " similar ycm
 Plugin 'neoclide/coc.nvim'
 
+" altercation/vim-colors-solarized
+Plugin 'altercation/vim-colors-solarized'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -125,10 +128,16 @@ inoremap < <><LEFT>
 set splitbelow
 set splitright
 
-let mapleader = "\<space>"
+" set colorscheme for vim
+if has('termguicolors')
+  set termguicolors
+endif
 
-" set vim 256 color
-set t_Co=256
+" apply color scheme
+colorscheme solarized
+set background=dark
+
+let mapleader = "\<space>"
 
 " ...........................................................................
 " rust-lang/rust.vim
