@@ -92,6 +92,13 @@ set shiftwidth=4
 set textwidth=80
 set colorcolumn=80  " 显示参考线
 
+" select something with the mouse without visual mode
+set mouse=v
+
+" make all yanking/deleting operations automatically
+" copy to the system clipboard
+set clipboard=unnamedplus
+
 set ruler
 syntax on
 filetype on
@@ -122,7 +129,6 @@ inoremap ( ()<LEFT>
 inoremap [ []<LEFT>
 inoremap " ""<LEFT>
 inoremap { {}<LEFT>
-inoremap < <><LEFT>
 
 " set window position for ycm
 set splitbelow
