@@ -44,7 +44,10 @@ Plugin 'github/copilot.vim'
 Plugin 'neoclide/coc.nvim'
 
 " altercation/vim-colors-solarized
-Plugin 'altercation/vim-colors-solarized'
+" Plugin 'altercation/vim-colors-solarized'
+
+" morhetz/gruvbox
+Plugin 'morhetz/gruvbox'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -140,7 +143,7 @@ if has('termguicolors')
 endif
 
 " apply color scheme
-colorscheme solarized
+colorscheme gruvbox
 set background=dark
 
 let mapleader = "\<space>"
