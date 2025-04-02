@@ -1,0 +1,4 @@
+[core]
+    editor = /usr/local/bin/vim
+    pager = less -F -X
+

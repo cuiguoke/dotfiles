@@ -1,0 +1,14 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+---
+Language: C
+BasedOnStyle: LLVM
+IndentWidth: 4
+UseTab: Never
+---
+Language: Cpp
+BasedOnStyle: Google
+IndentWidth: 2
+UseTab: Never
+ColumnLimit: 100
+
