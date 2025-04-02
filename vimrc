@@ -85,12 +85,19 @@ filetype plugin indent on    " required
 " basic configuration
 " ...........................................................................
 set nu
+set ruler
 set hlsearch
-set tabstop=4
-set expandtab
-set softtabstop=4
-set autoindent
+
 set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+set expandtab
+
+set autoindent
+
+" set indent style for cpp
+autocmd FileType cpp setlocal shiftwidth=2 tabstop=2 softtabstop=2 expandtab
+autocmd FileType cpp setlocal cindent smartindent
 
 set textwidth=80
 set colorcolumn=80  " 显示参考线
@@ -102,9 +109,6 @@ set mouse=v
 " copy to the system clipboard
 set clipboard=unnamedplus
 
-set ruler
-syntax on
-filetype on
 
 " start from previous position when open files
 if has("autocmd")
