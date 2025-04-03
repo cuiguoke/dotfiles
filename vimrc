@@ -105,11 +105,6 @@ set colorcolumn=80  " 显示参考线
 " select something with the mouse without visual mode
 set mouse=v
 
-" make all yanking/deleting operations automatically
-" copy to the system clipboard
-set clipboard=unnamedplus
-
-
 " start from previous position when open files
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
