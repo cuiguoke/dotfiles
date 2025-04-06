@@ -49,6 +49,9 @@ Plugin 'neoclide/coc.nvim'
 " morhetz/gruvbox
 Plugin 'morhetz/gruvbox'
 
+" rakr/vim-one
+" Plugin 'rakr/vim-one'
+
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -96,7 +99,7 @@ set expandtab
 set autoindent
 
 " set indent style for cpp
-autocmd FileType cpp setlocal shiftwidth=2 tabstop=2 softtabstop=2 expandtab
+autocmd FileType cpp setlocal shiftwidth=4 tabstop=4 softtabstop=4 expandtab
 autocmd FileType cpp setlocal cindent smartindent
 
 set textwidth=80

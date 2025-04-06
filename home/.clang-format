@@ -1,14 +1,8 @@
-BasedOnStyle: LLVM
-IndentWidth: 4
----
-Language: C
-BasedOnStyle: LLVM
-IndentWidth: 4
-UseTab: Never
----
-Language: Cpp
 BasedOnStyle: Google
-IndentWidth: 2
+IndentWidth: 4
 UseTab: Never
+TabWidth: 4
+AllowShortIfStatementsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: false
 ColumnLimit: 100
 
