@@ -171,7 +171,7 @@ set updatetime=100
 " tpope/vim-fugitive
 " ...........................................................................
 " Display git blame via tpope/vim-fugitive
-nnoremap <Leader>gbl :Git blame<CR>
+nnoremap <Leader>bl :Git blame<CR>
 
 " ...........................................................................
 " lambdalisue/fern.vim
